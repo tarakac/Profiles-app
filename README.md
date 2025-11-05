@@ -1,16 +1,20 @@
-# React + Vite
+# Profiles App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application built using **Vite** and **React-Bootstrap**.  
 
-Currently, two official plugins are available:
+## Features implemented so far
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Project setup**  
+   - Initialized a **Vite + React** project inside a VS Code dev container with Node.js.
+   - Dev server configured to run with `--host` for container compatibility.
 
-## React Compiler
+2. **React-Bootstrap integration**  
+   - Installed `react-bootstrap` and `bootstrap`.
+   - Imported Bootstrap CSS in `src/main.jsx`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. **Hello React page**  
+   - Replaced `<App />` content with a React-Bootstrap `Alert` component displaying **"Hello React"**.
+   - Wrapped the alert in a Bootstrap `Container` with padding for proper spacing.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   ## Screenshot  : React_Screenshot.png
+   # commit link introduced React-Bootstrap and “Hello React”: https://github.com/tarakac/Profiles-app/commit/e87982c
